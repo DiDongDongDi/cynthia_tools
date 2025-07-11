@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<body>
+    <h1>Hello Electron!</h1>
+    <p>版本：<span id="version"></span></p>
+    <script>
+        window.electronAPI.getVersion().then((ver) => {
+            document.getElementById("version").textContent = ver;
+        });
+    </script>
+</body>
