@@ -1,0 +1,23 @@
+{
+  "name": "cynthia_tools",
+  "version": "1.0.0",
+  "description": "tools for cynthia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiDongDongDi/cynthia_tools.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiDongDongDi/cynthia_tools/issues"
+  },
+  "homepage": "https://github.com/DiDongDongDi/cynthia_tools#readme",
+  "devDependencies": {
+    "electron": "^37.2.1"
+  }
+}
